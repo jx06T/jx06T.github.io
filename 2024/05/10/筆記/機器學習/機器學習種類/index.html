@@ -20,20 +20,20 @@
   <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
   <link rel="preload" href="/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
-  <meta name="description" content="1. Q learning 用表格儲存每個狀態對應到的行動 Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)]Q(s,a)←Q(s,a)+α[r+γ Max Q(s′,a′)−Q(s,a)]  Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)] 其中$$0\leq\alpha ,\gamma\geq1$$ 我通常寫下面這樣，比較好理解? Q(s">
+  <meta name="description" content="1. Q learning 用表格儲存每個狀態對應到的行動 Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)]Q(s,a)←Q(s,a)+α[r+γ Max Q(s′,a′)−Q(s,a)]  Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)] 其中 0≤α,γ≥10\leq\alpha ,\gamma\geq1 0≤α,γ≥1 我通常寫下面這">
 <meta property="og:type" content="article">
 <meta property="og:title" content="機器學習種類">
 <meta property="og:url" content="https://jx06t.github.io/2024/05/10/%E7%AD%86%E8%A8%98/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%A8%AE%E9%A1%9E/index.html">
 <meta property="og:site_name" content="jx06&#39;blog">
-<meta property="og:description" content="1. Q learning 用表格儲存每個狀態對應到的行動 Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)]Q(s,a)←Q(s,a)+α[r+γ Max Q(s′,a′)−Q(s,a)]  Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)] 其中$$0\leq\alpha ,\gamma\geq1$$ 我通常寫下面這樣，比較好理解? Q(s">
+<meta property="og:description" content="1. Q learning 用表格儲存每個狀態對應到的行動 Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)]Q(s,a)←Q(s,a)+α[r+γ Max Q(s′,a′)−Q(s,a)]  Q(s,a)←Q(s,a)+α[r+γMaxQ(s′,a′)−Q(s,a)] 其中 0≤α,γ≥10\leq\alpha ,\gamma\geq1 0≤α,γ≥1 我通常寫下面這">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://i.stack.imgur.com/wmFny.png">
 <meta property="article:published_time" content="2024-05-09T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-05-12T16:16:41.125Z">
+<meta property="article:modified_time" content="2024-05-13T00:05:32.934Z">
 <meta property="article:author" content="jx06_t">
+<meta property="article:tag" content="編程">
 <meta property="article:tag" content="筆記">
 <meta property="article:tag" content="AI">
-<meta property="article:tag" content="編程">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i.stack.imgur.com/wmFny.png">
   
@@ -164,6 +164,21 @@
                 <div class="category-count">2</div>
             </a>
         
+            <a class="category-link" href="/categories/%E7%B7%A8%E7%A8%8B/">
+                編程
+                <div class="category-count">6</div>
+            </a>
+        <div class="children"><div class="category-box">
+            <a class="category-link" href="/categories/%E7%B7%A8%E7%A8%8B/%E4%B8%8D%E6%AD%A3%E7%B6%93%E6%95%99%E5%AD%B8/">
+                不正經教學
+                <div class="category-count">4</div>
+            </a>
+        
+            <a class="category-link" href="/categories/%E7%B7%A8%E7%A8%8B/%E6%8E%A1%E5%9D%91/">
+                採坑
+                <div class="category-count">2</div>
+            </a>
+        </div></div>
             <a class="category-link" href="/categories/%E7%AD%86%E8%A8%98/">
                 筆記
                 <div class="category-count">2</div>
@@ -172,21 +187,6 @@
             <a class="category-link" href="/categories/%E7%AD%86%E8%A8%98/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/">
                 機器學習
                 <div class="category-count">2</div>
-            </a>
-        </div></div>
-            <a class="category-link" href="/categories/%E7%B7%A8%E7%A8%8B/">
-                編程
-                <div class="category-count">6</div>
-            </a>
-        <div class="children"><div class="category-box">
-            <a class="category-link" href="/categories/%E7%B7%A8%E7%A8%8B/%E6%8E%A1%E5%9D%91/">
-                採坑
-                <div class="category-count">2</div>
-            </a>
-        
-            <a class="category-link" href="/categories/%E7%B7%A8%E7%A8%8B/%E4%B8%8D%E6%AD%A3%E7%B6%93%E6%95%99%E5%AD%B8/">
-                不正經教學
-                <div class="category-count">4</div>
             </a>
         </div></div></div>
     </div>
@@ -228,15 +228,15 @@
             </div>
           </a>
         
-          <a class="recent-link" href="/2024/05/12/%E7%B7%A8%E7%A8%8B/%E4%B8%8D%E6%AD%A3%E7%B6%93%E6%95%99%E5%AD%B8/Hexo_%E4%BB%BB%E6%84%8F%E4%B8%BB%E9%A1%8C%E9%A1%AF%E7%A4%BA%E6%96%B9%E7%A8%8B%E5%BC%8F/" title="Hexo 任意主題顯示方程式" >
-            <div class="recent-link-text">
-              Hexo 任意主題顯示方程式
-            </div>
-          </a>
-        
           <a class="recent-link" href="/2024/05/12/%E7%B7%A8%E7%A8%8B/%E6%8E%A1%E5%9D%91/Hexo_%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0_README.md_%E5%BE%8C%E9%83%A8%E7%BD%B2%E5%88%B0_GitHub_%E6%B6%88%E5%A4%B1/" title="Hexo 博客添加 README.md 後部署到 GitHub 消失" >
             <div class="recent-link-text">
               Hexo 博客添加 README.md 後部署到 GitHub 消失
+            </div>
+          </a>
+        
+          <a class="recent-link" href="/2024/05/12/%E7%B7%A8%E7%A8%8B/%E4%B8%8D%E6%AD%A3%E7%B6%93%E6%95%99%E5%AD%B8/Hexo_%E4%BB%BB%E6%84%8F%E4%B8%BB%E9%A1%8C%E9%A1%AF%E7%A4%BA%E6%96%B9%E7%A8%8B%E5%BC%8F/" title="Hexo 任意主題顯示方程式" >
+            <div class="recent-link-text">
+              Hexo 任意主題顯示方程式
             </div>
           </a>
         
@@ -284,7 +284,7 @@
   
           </div>
           <div class="wordcount need-seperator meta-info">
-            688 詞 
+            698 詞 
           </div>
         </div>
         
@@ -297,8 +297,10 @@
 <p>用表格儲存每個狀態對應到的行動</p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>Q</mi><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><mo>←</mo><mi>Q</mi><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><mi>α</mi><mo stretchy="false">[</mo><mi>r</mi><mo>+</mo><mi>γ</mi><mi>M</mi><mi>a</mi><mi>x</mi><mi>Q</mi><mo stretchy="false">(</mo><mi>s</mi><mtext>′</mtext><mo separator="true">,</mo><mi>a</mi><mtext>′</mtext><mo stretchy="false">)</mo><mtext>−</mtext><mi>Q</mi><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">Q(s,a)←Q(s,a)+α[r+γ Max Q(s′,a′)−Q(s,a)] 
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">←</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05556em;">γ</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">a</span><span class="mord mathnormal">x</span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mord">′</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mord">′</span><span class="mclose">)</span><span class="mord">−</span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mclose">]</span></span></span></span></span></p>
-<p>其中$$0\leq\alpha ,\gamma\geq1$$<br>
-我通常寫下面這樣，比較好理解?</p>
+<p>其中</p>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>α</mi><mo separator="true">,</mo><mi>γ</mi><mo>≥</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0\leq\alpha ,\gamma\geq1
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8304100000000001em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal" style="margin-right:0.05556em;">γ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≥</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span></span></p>
+<p>我通常寫下面這樣，比較好理解?</p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>Q</mi><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><mo>←</mo><mi>Q</mi><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>α</mi><mo stretchy="false">)</mo><mo>+</mo><mi>α</mi><mo stretchy="false">[</mo><mi>r</mi><mo>+</mo><mi>γ</mi><mi>M</mi><mi>a</mi><mi>x</mi><mi>Q</mi><mo stretchy="false">(</mo><mi>s</mi><mtext>′</mtext><mo separator="true">,</mo><mi>a</mi><mtext>′</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">Q(s,a)←Q(s,a)(1-\alpha )+α[r + γ Max Q(s′,a′)]
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">←</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05556em;">γ</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">a</span><span class="mord mathnormal">x</span><span class="mord mathnormal">Q</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mord">′</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mord">′</span><span class="mclose">)</span><span class="mclose">]</span></span></span></span></span></p>
 <p>α 是學習率，分數更新的速度越大更新越快<br>
@@ -333,13 +335,13 @@ Sarsa與Q learning的差別<br>
 <nav id="article-nav">
   <a class="article-nav-btn left "
     
-      href="/2024/05/11/%E7%B7%A8%E7%A8%8B/%E6%8E%A1%E5%9D%91/%E5%AE%89%E8%A3%9D_mitmproxy_%E5%A0%B1%E9%8C%AF_ImportError_cannot_import_name_'get_encoding'_from_'urwid.util'/"
-      title="安裝 mitmproxy 報錯 ImportError cannot import name 'get_encoding' from 'urwid.util'"
+      href="/2024/05/11/%E7%B7%A8%E7%A8%8B/%E4%B8%8D%E6%AD%A3%E7%B6%93%E6%95%99%E5%AD%B8/%E5%88%A9%E7%94%A8Hexo%E5%92%8CGitHub_Pages%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99/"
+      title="利用Hexo和GitHub Pages搭建個人網站"
      >
     <i class="fa-solid fa-angle-left"></i>
     <p class="title-text">
       
-        安裝 mitmproxy 報錯 ImportError cannot import name &#39;get_encoding&#39; from &#39;urwid.util&#39;
+        利用Hexo和GitHub Pages搭建個人網站
         
     </p>
   </a>
